@@ -4,7 +4,7 @@
 #include <Adafruit_SH110X.h>
 
 #define IO_USERNAME  "ArturSeabra"
-#define IO_KEY       "aio_BIQu77uLVDAE5juAxpcVj1MZNFpq"
+#define IO_KEY       ""
 
 char ssid[] = "TP-Link_D0DC";
 char pass[] = "a1b2c3d4e5";
@@ -29,9 +29,9 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, ssid, pass);
 #endif
 
 
-#define BLYNK_TEMPLATE_ID "TMPL5pBp5sw1T"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_DEVICE_NAME "IoT DTSD"  //ou template?
-#define BLYNK_AUTH_TOKEN "cTCVxRcKmniQ1YxosZYzAd53Caw4xkel"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 
