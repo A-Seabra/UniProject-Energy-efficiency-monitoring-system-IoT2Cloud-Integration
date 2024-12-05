@@ -6,8 +6,8 @@
 #define IO_USERNAME  "ArturSeabra"
 #define IO_KEY       ""
 
-char ssid[] = "TP-Link_D0DC";
-char pass[] = "a1b2c3d4e5";
+char ssid[] = "";
+char pass[] = "";
 
 
 #include "AdafruitIO_WiFi.h"
